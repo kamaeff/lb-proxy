@@ -25,8 +25,8 @@ Thus you can keep scrobbling even when LB website is inaccessible for you.
 Note the `Domains and routes` section in the Settings. You can see there a `workers.dev` domain, something like `lb-proxy.yourusername.workers.dev`. You can use that domain as a replacement for  `api.listenbrainz.org` in your music application. 
 
 ### Navidrome setup example
-**Option A.** Put `ListenBrainz.BaseURL=https://lb-proxy.yourusername.workers.dev/1` into your `navidrome.toml`. Replace `lb-proxy.yourusername.workers.dev` with your actual worker's domain. Restart Navidrome.  
-**Option B.** Stop Navidrome. Restart it with environment variable `ND_LISTENBRAINZ_BASEURL=https://lb-proxy.yourusername.workers.dev/1`. Replace `lb-proxy.yourusername.workers.dev` with your actual worker's domain. 
+**Option A.** Put `ListenBrainz.BaseURL=https://lb-proxy.yourusername.workers.dev/1/` into your `navidrome.toml`. Replace `lb-proxy.yourusername.workers.dev` with your actual worker's domain. Restart Navidrome.  
+**Option B.** Stop Navidrome. Restart it with environment variable `ND_LISTENBRAINZ_BASEURL=https://lb-proxy.yourusername.workers.dev/1/`. Replace `lb-proxy.yourusername.workers.dev` with your actual worker's domain. 
 
 **[My own example with docker compose](https://github.com/kamaeff/home-server/blob/c25dfd5e0aea366c6fb43fc71e4263a1cc487efb/navidrome/docker-compose.yml#L20)**
 
