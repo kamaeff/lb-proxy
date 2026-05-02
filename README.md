@@ -1,5 +1,5 @@
 # lb-proxy
-Cloudflare workers proxy for Liztenbrainz API.
+Cloudflare workers proxy for ListenBrainz API.
 
 ## Why
 If you are sharing your public IP with malicious bots, your IP can get autimatically blocked.  
