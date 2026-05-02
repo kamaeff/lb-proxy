@@ -1,7 +1,7 @@
 # lb-proxy
 Cloudflare workers proxy for Liztenbrainz API.
 
-If you are sharing your public IP with malicious bots, your IP can get autimatically blocker.  
+If you are sharing your public IP with malicious bots, your IP can get autimatically blocked.  
 Metabrainz support team can unblock it upon your request but in the meantime you are going to lose your scrobbles.  
 To keep your scrobbling uninterrupted you can set up a proxy.  
 HTTP proxies are often paid or require you to rent a VPS. Free proxies are often unreliable.  
